@@ -6,7 +6,7 @@ To compile: run this command
 	g++ $(pkg-config --cflags --libs opencv) imageManipulator.cpp -o im -lpthread
 
 Then to run:
-	./im <choiceNumber>
+	./im (choice)
 
 choiceNumbers:
 
